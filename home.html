@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Welcome to this little website.</h1>
+		<p>Hello World </p>
+		<p>We'd love to welcome you to the best website ever created!</p>
+		<img src="https://www.google.com/search?q=rubber+duck&client=safari&rls=en&sxsrf=AOaemvLJsWSMa6e5wWmXzN8HBS6d0H-kJA:1631888326669&tbm=isch&source=iu&ictx=1&fir=5qRbnYunjyG4vM%252C2F5eJWBQ4egGwM%252C_&vet=1&usg=AI4_-kQc_BcI7m26WfDr3udqgWCWey0Ezw&sa=X&ved=2ahUKEwj4npjgmYbzAhUhlWoFHVoSB3IQ9QF6BAgZEAE#imgrc=5qRbnYunjyG4vM">
+		
+		<img onmouseover="goodJob('Good Job')">
+<script>
+function goodJob(){
+			console.log('Good Job');
+		}
+</script>
+		
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+			
+
+			Message:
+			<input type="textarea">
+			
+			
+			<button onclick="showAlert()">Submit</button>
+
+			<script>
+				function showAlert(){
+					alert('submitted succesfully!');
+				}
+			</script>
+
+			
+			
+			
+			<p>wow, youre so...</p>
+			<ul>
+				<li>handsome</li>
+				<li>smart</li>
+				<li>cool</li>
+			</ul>
+
+		</form>
+		
+		How'd you hear about the website:
+		<input type="checkbox"> Google
+		<input type="checkbox"> A friend
+		<input type="checkbox"> other
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
